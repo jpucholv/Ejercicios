@@ -1,6 +1,11 @@
 from functools import reduce
 
-lista = [1,2,3,4,5,6,7,8,9]
+lista = []
+x = int(input("Introudce el número menor del rango: "))
+y = int(input("Introduce el número mayor del rango: "))
+
+for n in range (x,y+1):
+    lista.append(n)
 
 def impares (x):
     if x % 2 != 0:
