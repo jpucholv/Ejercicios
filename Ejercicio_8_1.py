@@ -3,7 +3,6 @@ f = open('mifichero.txt', 'w')
 
 f.write('Escrito 1\n')
 
-
 f.close()
 
 # Abre por segunda vez el archivo esta vez con permiso "append"
