@@ -8,7 +8,7 @@ window.columnconfigure(0, weight=1)
 # Crea el label para el formulario de selección
 label1 = ttk.Label(window, text='Selecciona el número de habitaciones:')
 
-# Crea la lógica del Radiobutton
+# Crea la lógica del checkbox
 value1 = tkinter.BooleanVar()
 value2 = tkinter.BooleanVar()
 value3 = tkinter.BooleanVar()
